@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donald Mwanga - Experience</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #000;
+        }
+        .main {
+            padding: 5em 2em;
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center;
+            animation: slide-experience 35s infinite;
+        }
+        @keyframes slide-experience {
+            0% { background-image: url('Konza.jpg'); }
+            33.33% { background-image: url('WorkStationDay.jpg'); }
+            66.66% { background-image: url('WorkStationNight.jpg'); }
+            100% { background-image: url('Konza.jpg'); }
+        }
+        .main .major {
+            text-align: center;
+            margin-bottom: 2em;
+            color: #fff;
+        }
+        .main p, .main li {
+            color: #fff;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 2em 0;
+            text-align: center;
+        }
+        /* NavBar styles */
+        #header {
+            background: #333;
+            color: #fff;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        #header .inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #header .logo {
+            font-size: 1.5em;
+            color: #fff;
+            text-decoration: none;
+        }
+        #nav {
+            display: flex;
+            gap: 1em;
+        }
+        #nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 0.3em;
+            cursor: pointer;
+        }
+        .hamburger div {
+            width: 25px;
+            height: 3px;
+            background: #fff;
+        }
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+            #nav {
+                display: none;
+                flex-direction: column;
+                gap: 0;
+                background: #333;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+            }
+            #nav.active {
+                display: flex;
+            }
+            #nav a {
+                padding: 1em;
+                border-top: 1px solid #444;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="inner">
+            <a href="index.html" class="logo">Donald Mwanga</a>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav id="nav">
+                <a href="index.html">Home</a>
+                <a href="intro.html">Intro</a>
+                <a href="about.html">About</a>
+                <a href="strategic-framework.html">Strategic Framework</a>
+                <a href="experience.html">Experience</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Experience Section -->
+    <section id="experience" class="main">
+        <div class="inner">
+            <header class="major">
+                <h2>EXPERIENCE</h2>
+            </header>
+            <p>Over the years, I have had the opportunity to work on a variety of projects, each contributing to my growth as a software engineer. Below are some of the notable experiences:</p>
+            <ul>
+		    <li><b>Software Engineer (Attache) at Konza Technopolis Development Authority (May 2024 - Present)</b></li>
+                <p>With my experience, I design, develop, and implement smart city solutions. I am skilled in Python (Django, Flask), PHP(Laravel), Node.js (Express.js), C, C++, and JavaScript, and have expertise in MySQL and Microsoft SQL Server. I collaborate in cross-functional teams, write clean, maintainable code with unit and integration testing, and adapt to evolving project requirements.</p>
+                <li><b>Cloud Engineer Intern at Iwave Africa Limited (May 2024 - Present)</b></li>
+                <p>At Iwave Africa Limited, I design, deploy, and manage cloud infrastructure on Azure and AWS. I develope Infrastructure as Code (IaC) scripts using Terraform for automation and monitore cloud resource utilization for cost and performance optimization. Proficient in Python scripting and cloud security best practices, I have gained a strong foundation in cloud engineering and infrastructure automation.</p>
+            </ul>
+            <p>These experiences have equipped me with the skills and knowledge necessary to excel in the field of software development.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <p>&copy;2024 Donald Mwanga. All rights reserved. Built with ❤️</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.hamburger').click(function () {
+                $('#nav').toggleClass('active');
+            });
+
+            $('#nav a').click(function () {
+                $('#nav').removeClass('active');
+            });
+        });
+    </script>
+</body>
+</html>
