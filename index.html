@@ -153,7 +153,7 @@
             $('.hamburger').click(function () {
                 $('#nav').toggleClass('active');
             });
-git
+
             $('#nav a').click(function () {
                 $('#nav').removeClass('active');
             });
@@ -165,22 +165,27 @@ git
             let currentText = "";
             let letter = "";
 
-            (function type() {
+            function type() {
                 if (count === texts.length) {
-                    count = 0;
+                    count = 0; // Reset count when reaching the end
                 }
                 currentText = texts[count];
                 letter = currentText.slice(0, ++index);
 
                 document.getElementById('animated-text').textContent = letter;
+                
                 if (letter.length === currentText.length) {
-                    count++;
-                    index = 0;
-                    setTimeout(type, 1000); // delay before starting the next word
+                    // Wait before starting the next word
+                    setTimeout(() => {
+                        count++;
+                        index = 0;
+                        type();
+                    }, 1000); // 1 second pause after a full word is typed
                 } else {
-                    setTimeout(type, 200);
+                    setTimeout(type, 150); // Typing speed between letters
                 }
-            })();
+            }
+            type();
         });
     </script>
 </body>
