@@ -1,14 +1,14 @@
-#Donald's Developer Portfolio
+# Donald's Developer Portfolio
 Welcome to my portfolio! 🎉
 
 This repository showcases some of my key projects, skills, and experiences as a passionate software developer. Feel free to explore the live version at thedondev.github.io.
 
-#🚀 About Me
+# 🚀 About Me
 I'm Donald, an aspiring Frontend Developer with a specialization in Software Development. I enjoy building interactive, user-friendly applications using modern web technologies like HTML, CSS, React.js, and Vue.js.
 
 I’m also always learning and improving, with interests spanning across full-stack development and penetration testing.
 
-#🔧 Technologies & Tools
+# 🔧 Technologies & Tools
 Here are some of the technologies and tools I’ve worked with:
 
 Frontend: HTML5, CSS3, JavaScript, React.js, Vue.js
@@ -17,7 +17,7 @@ Design: Figma (Wireframing, Prototyping)
 Version Control: Git, GitHub
 Other Tools: Docker, ERPNext, Cloud Platforms
 
-#🌟 Featured Projects
+# 🌟 Featured Projects
 Here are some of the standout projects I've worked on:
 
 Farm-Door Web & Mobile App
