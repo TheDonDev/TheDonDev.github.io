@@ -20,7 +20,7 @@ Other Tools: Docker, ERPNext, Cloud Platforms
 # 🌟 Featured Projects
 Here are some of the standout projects I've worked on:
 
-Farm-Door Web & Mobile App
+**Farm-Door Web & Mobile App**
 
 A platform connecting farmers with consumers.
 Built with HTML, CSS, Flask (Python), and mobile-friendly designs.
@@ -29,11 +29,11 @@ Opportunity Hub Platform
 A job search platform connecting opportunities with job seekers.
 Uses modern frameworks for smooth and intuitive user experience.
 
-CareersPortal
+**CareersPortal**
 
 A job hosting site with a responsive UI and robust backend.
 
-Graduate Software Development Services
+**Graduate Software Development Services**
 
 A concept to engage universities and collaborate on software solutions.
 Developed with PHP Laravel.
