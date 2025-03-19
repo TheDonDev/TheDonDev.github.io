@@ -151,7 +151,7 @@
             $('#nav a').click(function () {
                 $('#nav').removeClass('active');
             });
-            const texts = ["Software Developer","Front-end Developer","UI/UX Designer"];
+            const texts = ["Software Developer","Front-end Developer","Back-end Developer","Full-Stack Developer","UI/UX Designer"];
             let count = 0;
             let index = 0;
             let currentText = "";
@@ -165,7 +165,7 @@
                 letter = currentText.slice(0, ++index);
 
                 document.getElementById('animated-text').textContent = letter;
-                
+
                 if (letter.length === currentText.length) {
                     setTimeout(() => {
                         count++;
