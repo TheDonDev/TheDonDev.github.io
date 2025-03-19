@@ -117,6 +117,22 @@
                 border-top: 1px solid #444;
             }
         }
+        .navigation-arrows {
+            position: fixed;
+            top: 75%;
+            transform: translateY(-50%);
+            z-index: 1000;
+        }
+        .arrow {
+            font-size: 3em;
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            transition: color 0.3s;
+        }
+        .arrow:hover {
+            color: #f0a500; /* Change color on hover */
+        }
     </style>
 </head>
 <body>
@@ -160,6 +176,10 @@
             </div>
         </div>
     </section>
+    <div class="navigation-arrows">
+        <a href="projects.html" class="arrow left-arrow">&#9664;</a>
+        <a href="about.html" class="arrow right-arrow">&#9654;</a>
+    </div>
     <footer id="footer">
         <div class="inner">
             <p>&copy;2025 Donald Mwanga. All rights reserved. Built with ❤️</p>

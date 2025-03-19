@@ -110,6 +110,22 @@
             height: 450px;
             border: 0;
         }
+        .navigation-arrows {
+            position: fixed;
+            top: 75%;
+            transform: translateY(-50%);
+            z-index: 1000;
+        }
+        .arrow {
+            font-size: 3em;
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            transition: color 0.3s;
+        }
+        .arrow:hover {
+            color: #f0a500; /* Change color on hover */
+        }
     </style>
 </head>
 <body>
@@ -141,7 +157,8 @@
             <ul class="contact-info">
                 <li><i class="fas fa-envelope"></i><strong>Email:</strong> <a href="mailto:donaldmwanga33@gmail.com">donaldmwanga33@gmail.com</a></li>
                 <li><i class="fab fa-linkedin"></i><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/donald-mwanga-4bb5abba">Donald Mwanga</a></li>
-            <li><i class="fab fa-linkedin"></i><strong>GitHub:</strong> <a href="https://github.com/thedondev">Donald Mwanga</a></li></ul> 
+                <li><i class="fab fa-linkedin"></i><strong>GitHub:</strong> <a href="https://github.com/thedondev">Donald Mwanga</a></li>
+            </ul> 
             <div class="contact-form">
                 <form>
                     <div class="form-group">
@@ -160,11 +177,15 @@
                 </form>
             </div>
             <div class="map-container">
-                <h3>Find me at Konza Technopolis Development Authority</h3>
+                <h3>Find me at Nairobi,Kenya</h3>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.748147018572!2d37.11999811467669!3d-1.7467401987806297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18384b1d96a90f7b%3A0x2d7a3b6f56f5e2df!2sKonza%20Technopolis!5e0!3m2!1sen!2ske!4v1625215843128!5m2!1sen!2ske" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </section>
+    <div class="navigation-arrows">
+        <a href="about.html" class="arrow left-arrow">&#9664;</a>
+        <a href="experience.html" class="arrow right-arrow">&#9654;</a>
+    </div>
     <footer id="footer">
         <div class="inner">
             <p>&copy;2025 Donald Mwanga. All rights reserved. Built with ❤️</p>

@@ -99,6 +99,22 @@
             50% { background-image: url('nai3.jpg'); }
             100% { background-image: url('PRO3.jpg'); }
         }
+        .navigation-arrows {
+            position: fixed;
+            top: 75%;
+            transform: translateY(-50%);
+            z-index: 1000;
+        }
+        .arrow {
+            font-size: 3em;
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            transition: color 0.3s;
+        }
+        .arrow:hover {
+            color: #f0a500; /* Change color on hover */
+        }
     </style>
 </head>
 <body>
@@ -126,9 +142,13 @@
             <header class="major">
                 <h2>INTRODUCTION</h2>
             </header>
-            <p>I am a Software Developer/Engineer with experience in creating innovative solutions. My work involves developing applications that are efficient, scalable, and user-friendly. My expertise lies in full-stack development, and I enjoy taking on new challenges and learning new technologies.From the vibrant streets of Kenya to the intricate world of code, I navigate with a unique perspective. Technology is my canvas, and I paint with the precision of a software engineer. Explore my portfolio and discover how I blend my diverse interests into exceptional code.</p>
+            <p>I am a Software Developer/Engineer with experience in creating innovative solutions. My work involves developing applications that are efficient, scalable, and user-friendly. My expertise lies in full-stack development, and I enjoy taking on new challenges and learning new technologies. From the vibrant streets of Kenya to the intricate world of code, I navigate with a unique perspective. Technology is my canvas, and I paint with the precision of a software engineer. Explore my portfolio and discover how I blend my diverse interests into exceptional code.</p>
         </div>
     </section>
+    <div class="navigation-arrows">
+        <a href="index.html" class="arrow left-arrow">&#9664;</a>
+        <a href="projects.html" class="arrow right-arrow">&#9654;</a>
+    </div>
     <footer id="footer">
         <div class="inner">
             <p>&copy;2025 Donald Mwanga. All rights reserved. Built with ❤️</p>
