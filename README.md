@@ -9,7 +9,7 @@ I'm Donald, an aspiring Frontend Developer with a specialization in Software Dev
 I’m also always learning and improving, with interests spanning across full-stack development and penetration testing.
 
 # 🔧 Technologies & Tools
-Here are some of the technologies and tools I’ve worked with:
+Here are some of the technologies and tools I’ve worked with: 
 
 Frontend: HTML5, CSS3, JavaScript, React.js, Vue.js
 Backend: Python (Flask), PHP (Laravel)
