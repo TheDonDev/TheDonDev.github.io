@@ -159,9 +159,11 @@
                 <li><i class="fas fa-envelope"></i><strong>Email:</strong> <a href="mailto:donaldmwanga33@gmail.com">donaldmwanga33@gmail.com</a></li>
                 <li><i class="fab fa-linkedin"></i><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/donald-mwanga-4bb5abba">Donald Mwanga</a></li>
                 <li><i class="fab fa-linkedin"></i><strong>GitHub:</strong> <a href="https://github.com/thedondev">Donald Mwanga</a></li>
+                <li><i class="fab fa-youtube"></i><strong>YouTube:</strong> <a href="https://www.youtube.com/@realdondev" target="_blank" rel="noopener noreferrer">@realdondev</a></li>
+                <li><i class="fab fa-facebook"></i><strong>Facebook:</strong> <a href="https://web.facebook.com/donald.mwanga/" target="_blank" rel="noopener noreferrer">Donald Mwanga</a></li>
             </ul> 
             <div class="contact-form">
-                <form>
+                <form id="contactForm">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
@@ -204,6 +206,35 @@
 
             $('#nav a').click(function () {
                 $('#nav').removeClass('active');
+            });
+
+            // Handle Form Submission
+            $('#contactForm').submit(function(e) {
+                e.preventDefault();
+                
+                const formData = {
+                    name: $('#name').val(),
+                    email: $('#email').val(),
+                    message: $('#message').val()
+                };
+
+                // Change the URL below to your deployed backend URL
+                fetch('https://YOUR-RENDER-APP-NAME.onrender.com/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    alert('Message sent successfully!');
+                    $('#contactForm')[0].reset();
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                    alert('Error sending message.');
+                });
             });
         });
     </script>
