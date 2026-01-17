@@ -132,7 +132,7 @@
 <body>
     <header id="header">
         <div class="inner">
-            <a href="index.html" class="logo">Donald Mwanga</a>
+            <a href="index.html" class="logo">Donald Mwanga Makori</a>
             <div class="hamburger">
                 <div></div>
                 <div></div>
@@ -191,7 +191,7 @@
     </div>
     <footer id="footer">
         <div class="inner">
-            <p>&copy;2025 Donald Mwanga. All rights reserved. Built with ❤️</p>
+            <p>&copy;2025 Donald Mwanga Makori. All rights reserved. Built with ❤️</p>
         </div>
     </footer>
 
@@ -219,21 +219,28 @@
                 };
 
                 // Change the URL below to your deployed backend URL
-                fetch('https://YOUR-RENDER-APP-NAME.onrender.com/submit', {
+                // IMPORTANT: Replace 'YOUR-RENDER-APP-NAME' with your actual Render app name
+                fetch('https://thedondev-github-io.onrender.com/submit', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
                     },
                     body: JSON.stringify(formData),
                 })
-                .then(response => response.json())
+                .then(response => {
+                    if (!response.ok) {
+                        // If the server returns a 400/500 error, throw to catch block
+                        throw new Error('Server Error: ' + response.status);
+                    }
+                    return response.json();
+                })
                 .then(data => {
                     alert('Message sent successfully!');
                     $('#contactForm')[0].reset();
                 })
                 .catch((error) => {
                     console.error('Error:', error);
-                    alert('Error sending message.');
+                    alert('Error sending message: ' + error.message + '. Check the console (F12) for details.');
                 });
             });
         });
