@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c799276.css",
+    "main.js": "/static/js/main.b45f2d59.js",
+    "static/js/488.1dde5848.chunk.js": "/static/js/488.1dde5848.chunk.js",
+    "static/media/Skills6.jpg": "/static/media/Skills6.8a6b79bb9d349d02694e.jpg",
+    "static/media/nai.jpg": "/static/media/nai.ee3e6edab8711df0d3bc.jpg",
+    "static/media/Skills5.jpg": "/static/media/Skills5.8a7ffac3d77099a5e780.jpg",
+    "static/media/Skills4.jpg": "/static/media/Skills4.3d71537dc08056180542.jpg",
+    "static/media/nai3.jpg": "/static/media/nai3.342521468b7d59653360.jpg",
+    "static/media/MV3.jpg": "/static/media/MV3.b032f60f274ab2e21c8e.jpg",
+    "static/media/Skills.jpg": "/static/media/Skills.0473a5c27f2ba66dd03f.jpg",
+    "static/media/BB2.jpg": "/static/media/BB2.e1bf47ffe3f0e2f76570.jpg",
+    "static/media/MV5.jpg": "/static/media/MV5.f45ef646aee44ed4b3e2.jpg",
+    "static/media/Skills2.jpg": "/static/media/Skills2.f4c1dbb2099fb05beb92.jpg",
+    "static/media/LeonardoOphubjpg (2).jpg": "/static/media/LeonardoOphubjpg (2).7e8b5d19077a9a0c23b3.jpg",
+    "static/media/VisiTrack (1).jpg": "/static/media/VisiTrack (1).ac0ebf3c093737664cf4.jpg",
+    "static/media/VisiTrack (2).jpg": "/static/media/VisiTrack (2).4761071d2dfa8f5a4504.jpg",
+    "static/media/MV.jpg": "/static/media/MV.2af6fdb7ae3f3f422405.jpg",
+    "static/media/LeonardoOphubjpg (1).jpg": "/static/media/LeonardoOphubjpg (1).773dbf5a4adbf2ce7d22.jpg",
+    "static/media/PRO3.jpg": "/static/media/PRO3.c9aa137d226f8f56e468.jpg",
+    "static/media/WorkStationLine2.jpg": "/static/media/WorkStationLine2.71eea6bb247658df90d8.jpg",
+    "static/media/ServeRoom.jpg": "/static/media/ServeRoom.13f0141c320cd46f9cb9.jpg",
+    "static/media/WorkStationDay.jpg": "/static/media/WorkStationDay.308a677b102bc790e407.jpg",
+    "static/media/WorkStationNight.jpg": "/static/media/WorkStationNight.fe51b4ea4aab88e566a4.jpg",
+    "static/media/profile.jpg": "/static/media/profile.1c8a6571ef9f51aedf6e.jpg",
+    "static/media/WorkStationLine.jpg": "/static/media/WorkStationLine.89e11a88604a27be3704.jpg",
+    "static/media/Konza.jpg": "/static/media/Konza.2ca2e7821913f1844638.jpg",
+    "static/media/Donald_Mwanga_CV.pdf": "/static/media/Donald_Mwanga_CV.6db8581a7895e8417687.pdf",
+    "index.html": "/index.html",
+    "main.0c799276.css.map": "/static/css/main.0c799276.css.map",
+    "main.b45f2d59.js.map": "/static/js/main.b45f2d59.js.map",
+    "488.1dde5848.chunk.js.map": "/static/js/488.1dde5848.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c799276.css",
+    "static/js/main.b45f2d59.js"
+  ]
+}
